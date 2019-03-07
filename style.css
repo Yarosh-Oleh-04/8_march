@@ -119,6 +119,7 @@ p {
     position: absolute;
     display: none;
     bottom: calc(10vh + 50px);
+    left: calc(50vw - 200px);
     height: 100px;
     width: 400px;
     font-size: 54px;
