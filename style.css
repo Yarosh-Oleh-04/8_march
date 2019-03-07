@@ -23,3 +23,31 @@ p {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+
+.animation_space {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation_space .button {
+    height: 100px;
+    width: 500px;
+    background-color: blueviolet;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 5px solid blueviolet;
+    user-select: none;
+}
+
+.animation_space .button:active {
+    background-color: rgb(108, 34, 177);
+}
