@@ -93,7 +93,12 @@ p {
 }
 
 .e4 {
-    background-image: url(./Images/beautiful-bloom-blooming-414062-min.jpg)
+    background-image: url(./Images/beautiful-bloom-blooming-414062-min.jpg);
+}
+
+.e5 {
+    background-image: url(./Images/beautiful-flowers-blooming-branch-250591-min.jpg);
+    padding: 0 15px 0 15px;
 }
 
 
@@ -115,7 +120,7 @@ p {
     display: none;
     margin-top: calc(35vh - 100px);
     height: 100px;
-    width: 300px;
+    width: 400px;
     font-size: 54px;
     background-color: rgba(255, 255, 255, 0.5);
     justify-content: center;
