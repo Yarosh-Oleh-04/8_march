@@ -92,13 +92,17 @@ p {
     background-image: url(./Images/bloom-close-up-colorful-85773.jpg);
 }
 
+.e4 {
+    background-image: url(./Images/beautiful-bloom-blooming-414062-min.jpg)
+}
+
 
 .is img {
     height: 70vh;
 }
 
 .is p {
-    font-size: 68px;
+    font-size: 48px;
     font-style: italic;
     font-weight: bold;
     color: white;
@@ -113,16 +117,16 @@ p {
     height: 100px;
     width: 300px;
     font-size: 54px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     justify-content: center;
     align-items: center;
     border-radius: 15px;
     font-style: italic;
     font-weight: bold;
-    outline: none;
-    border: 5px solid rgba(0, 0, 0, 0.5);
+    user-select: none;
+    border: 5px solid rgba(255, 255, 255, 0.5);
 }
 
 .next:active {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(255, 255, 255);
 }

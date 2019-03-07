@@ -29,7 +29,7 @@ function button() {
 function next(){
     slides[0][n].style.display = 'none'
     n += 1
-    n = n % 3
+    n = n % 4
     slides[0][n].style.display = 'flex'
 
 }
