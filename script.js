@@ -1,4 +1,6 @@
 console.log(0)
+var n = 0
+slides = [document.getElementsByClassName('is')]
 
 function button() {
     document.getElementsByClassName('button')[0].style.display = 'none'
@@ -17,5 +19,17 @@ function button() {
             }, 100)
         }
     }, 2000)
+    setTimeout(function(){
+        document.getElementsByClassName('first')[0].style.display = 'none'
+        document.getElementsByClassName('next')[0].style.display = 'flex'
+        next()
+    }, 3000)
+}
+
+function next(){
+    slides[0][n].style.display = 'none'
+    n += 1
+    n = n % 3
+    slides[0][n].style.display = 'flex'
 
 }
