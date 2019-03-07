@@ -118,7 +118,7 @@ p {
 .next {
     position: absolute;
     display: none;
-    margin-top: calc(35vh - 100px);
+    bottom: calc(10vh + 50px);
     height: 100px;
     width: 400px;
     font-size: 54px;
