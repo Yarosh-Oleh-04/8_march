@@ -35,6 +35,7 @@ p {
 .animation_space .button {
     height: 100px;
     width: 500px;
+    margin-left: calc(50vw - 250px);
     background-color: blueviolet;
     font-size: 54px;
     font-style: italic;
